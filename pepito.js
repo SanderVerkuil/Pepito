@@ -12,6 +12,7 @@ const account = createAccount({
     seed, provider
 });
 
+// iota://9YDL9GNKTPRZNQPADINAUEWIQGTZYOEXNIOWPZHJIVXAYTN9TDDQMNMQUSGYDLAEXNIOIGAGZJAXTJJJ9ZCPWYDWDG/?timeout_at=1571568930076&multi_use=1
 
 function send(magnet, amount) {
     account.getAvailableBalance().then(balance => console.log('Holder balance: ', balance))
